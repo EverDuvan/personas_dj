@@ -1,0 +1,52 @@
+Proyecto: CRUD Django Restframework React
+
+Descripción
+Este proyecto es una aplicación web que permite a los usuarios ver, crear, actualizar y eliminar. 
+Utiliza Django para el backend (API REST) y React para el frontend.
+
+Instalación y Configuración
+Backend (Django):
+Clona este repositorio:
+git clone https://github.com/EverDuvan/CRUD_Django_React.git
+
+Crea un entorno virtual y actívalo:
+python -m venv env (windows)     python3 -m venv env (linux)
+env\Scripts\activate(windows)    source env/bin/activate (linux)
+
+Instala las dependencias:
+pip install -r requirements.txt
+
+Ejecuta las migraciones:
+python manage.py migrate
+Inicia el servidor:
+python manage.py runserver.
+
+Frontend (React):
+Ve al directorio frontend.
+Instala las dependencias: 
+npm install
+Inicia la aplicación:
+npm start
+
+Estructura del Proyecto
+backend/
+settings.py: Configuración de la aplicación Django.
+models.py: Modelos para los tutoriales.
+views.py: Vistas basadas en clases para las API REST.
+frontend/src/
+components/: Componentes React (Lista de tutoriales, formulario de creación, etc.).
+services/api.js: Configuración de Axios para las solicitudes HTTP.
+App.js: Configuración de rutas con React Router.
+
+Ejecución del Proyecto
+Inicia el servidor Django: 
+python manage.py runserver.
+Inicia la aplicación React: 
+npm start.
+
+Contribución y Licencia
+Si deseas contribuir, crea una rama y envía una solicitud de extracción.
+
+Recursos Adicionales
+Django Rest Framework
+React Documentation
